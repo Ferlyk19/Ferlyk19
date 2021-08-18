@@ -101,7 +101,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/vckyou/Geez-UserBot")
+    "https://github.com/Ferlyk19/ferlyk19")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Geez-UserBot")
 
@@ -205,7 +205,7 @@ ALIVE_LOGO = os.environ.get(
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/9e3f0783db33698243b7d.png"
+    "INLINE_PIC") or "https://telegra.ph/file/208c40beac51801e9b25d.png"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```𝘊𝘰𝘯𝘨𝘳𝘢𝘵𝘴𝘴... ⚡𝘎𝘦𝘦𝘻 𝘜𝘚𝘌𝘙𝘉𝘖𝘛⚡ Has Been Active!!```")
+    await bot.send_message(BOTLOG_CHATID, "```𝘊𝘰𝘯𝘨𝘳𝘢𝘵𝘴𝘴... ⚡FERLY KURNIAWAN⚡ Has Been Active!!```")
     return
 
 with bot:
@@ -458,15 +458,15 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Hallo [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang Di\n**Geez - Project**\nKalo mau tau lebih lanjut silahkan Join Ke \n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"Hallo [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang Di\n**Ferly - Project**\nKalo mau tau lebih lanjut silahkan Join Ke \n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/GeezProject"),
+                                       "t.me/Channelrumah"),
                             Button.url("🚨 Group support",
-                                       "t.me/GeezSupportGroup")],
+                                       "t.me/alivesholarssociety")],
                         [Button.url("👤 Development",
-                                    "t.me/VckyouuBitch")],
+                                    "t.me/FK190202")],
                     ]
                 )
 
@@ -506,29 +506,29 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f"⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n⚡**Owner : {DEFAULTUSER}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠odules :** `{len(plugins)}`\n\n⚡ **Dev : VCKYOUUU **".format(
+                    text=f"⚡ferlyk19⚡\n\n⚡**Owner : {DEFAULTUSER}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠odules :** `{len(plugins)}`\n\n⚡ **Dev : VCKYOUUU **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan Dari ⚡ferlyk19⚡ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
-                    text="""**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " ⚡ferlyk19⚡ ",
+                    text="""**⚡ferlyk19⚡\n\n Anda Bisa Membuat ferly Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-                                "https://github.com/vckyou/Geez-Userbot"),
+                                "⚡ferlyk19⚡",
+                                "https://github.com/Ferlyk19/ferlyk19"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/Vckyouubitch")]],
+                                "t.me/FK190202")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -564,9 +564,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/GeezProject"),
+                                       "t.me/Channelrumah"),
                             Button.url("🚨 Group support",
-                                       "t.me/GeezSupportGroup")],
+                                       "t.me/alivesholarssociety")],
                         [Button.inline("Open Menu", data="nepo")],
                         [custom.Button.inline(
                             "Close", b"close")],
