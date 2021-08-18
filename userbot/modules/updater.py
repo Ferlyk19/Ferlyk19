@@ -236,7 +236,7 @@ CMD_HELP.update({
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
     "\n• : Untuk Melihat Pembaruan Terbaru Ferly-Project."
     "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update now`"
-    "\n• : Memperbarui Geez-Project."
+    "\n• : Memperbarui Ferly-Project."
     "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update deploy`"
-    "\n• : Memperbarui Geez-Project Dengan Cara Men-Deploy Ulang."
+    "\n• : Memperbarui Ferly-Project Dengan Cara Men-Deploy Ulang."
 })
