@@ -230,7 +230,7 @@ async def amireallyalive(alive):
     output = (
         f"\n__**{GEEZ_TEKS_KUSTOM}**__\n"
         f"**╭───────────────────**\n"
-        f"**├[• 🤴 Geez Owner** \n"
+        f"**├[• 🤴 Ferly Owner** \n"
         f"├[•   : `{DEFAULTUSER}` \n"
         f"**├[• 🔎 Username** \n"
         f"├[•   : `@{user.username}` \n"
