@@ -1,5 +1,5 @@
 # We're using Ubuntu 20.10
-FROM vckyouuu/geezprojects:buster
+FROM Ferlyk19/ferlyk19:buster
 
 RUN git clone -b Geez-UserBot https://github.com/Ferlyk19/ferlyk19 /root/userbot
 RUN mkdir /root/userbot/.bin
