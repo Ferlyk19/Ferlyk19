@@ -5,15 +5,15 @@ from time import sleep
 @register(outgoing=True, pattern='^.ferly(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(2)
+    sleep(1)
     await typew.edit("`Hai Perkenalkan Namaku Ferly Kurniawan`")
-    sleep(2)
+    sleep(1)
     await typew.edit("`19 Tahun`")
-    sleep(2)
+    sleep(1)
     await typew.edit("`Lahir di kota padang dan besar di kota garut`")
-    sleep(2)
+    sleep(1)
     await typew.edit("`Tinggal Di Jakarta Timur`")
-    sleep(2)
+    sleep(1)
     await typew.edit("`Tepatnya di kampung dukuh, Salam Kenal:)`")
 # Create by myself @localheart
 
