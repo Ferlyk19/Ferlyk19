@@ -15,7 +15,7 @@ if not os.path.isdir(path):
     os.makedirs(path)
 
 
-@bot.on(geezbot_cmd(outgoing=True, pattern=r"rgif(?: |$)(.*)"))
+@register(outgoing=True, pattern=r"rgif(?: |$)(.*)"))
 async def _(event):
     if event.fwd_from:
         return
