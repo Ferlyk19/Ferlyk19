@@ -24,7 +24,7 @@
 
 <h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">Geez-UserBot<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
-**Pada Dasarnya [Ferly-UserBot](https://github.com/Ferlyk19/ferlyk19) adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+**Pada Dasarnya [Ferly-UserBot](https://github.com/FerlyKurniawan/ferlyk19) adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 Berbasis [Paperplane](https://github.com/RaphielGang) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot. Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.**
 
 ## DEPLOY TO HEROKU ⚠️
@@ -45,7 +45,7 @@ Berbasis [Paperplane](https://github.com/RaphielGang) dan [ProjectBish](https://
 
  🙏 **THANK YOU VERY MUCH FOR**
 
-*   [FERLY](https://github.com/Ferlyk19/ferlyk19)    Ferly - project
+*   [FERLY](https://github.com/FerlyKurniawan/ferlyk19)    Ferly - project
 *   [X_iMFiNe](https://github.com/ximfine/xBot-Remix)    XBOT-REMIX
 *   [Koala](https://github.com/ManusiaRakitan/Kampang-Bot)    Kampang - Bot
 *   [RaphielGang](https://github.com/RaphielGang)    Telegram - Paperplane
